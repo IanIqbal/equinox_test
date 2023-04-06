@@ -1,104 +1,103 @@
-/* Reset default styles */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Apply styles to header */
 header {
-	background-color: #f5f5f5;
-	padding: 20px;
+    background-color: #f5f5f5;
+    padding: 20px;
     display: flex;
     justify-content: space-around;
-    
+
 }
 
 
 
-nav{
+nav {
     display: flex;
     align-items: flex-end;
 }
+
 nav ul {
-	list-style: none;
-	display: flex;
+    list-style: none;
+    display: flex;
     margin-bottom: 45px;
 }
 
 nav li {
-	margin: 0 20px;
+    margin: 0 20px;
     font-family: monospace;
     font-size: larger;
 }
 
 nav a {
     color: #FF9900;
-	text-decoration: none;
-	font-weight: bold;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .hero {
-	margin-top: 50px;
-	text-align: center;
+    margin-top: 50px;
+    text-align: center;
     margin-left: 500px;
 }
 
 .hero h1 {
-	font-size: 48px;
-	margin-bottom: 20px;
+    font-size: 48px;
+    margin-bottom: 20px;
     font-family: "Bebas Neue";
     color: #10a5f5;
 }
 
 .hero p {
-	font-size: 24px;
-	margin-bottom: 40px;
+    font-size: 24px;
+    margin-bottom: 40px;
 }
 
 .btn {
-	display: inline-block;
-	padding: 10px 20px;
-	background-color: #333;
-	color: #fff;
-	font-size: 18px;
-	border-radius: 5px;
-	text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 .btn:hover {
-	background-color: #555;
+    background-color: #555;
 }
 
 /* Apply styles to main section */
 main {
-	padding: 50px;
+    padding: 50px;
 }
 
 section {
-	margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 h2 {
-	font-size: 36px;
-	margin-bottom: 20px;
+    font-size: 36px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
 .product {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
 
 
 .product img {
     width: 100%;
-	max-width: 200px;
-	height: auto;
-	margin-bottom: 20px;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
 
 }
 
@@ -109,28 +108,30 @@ h2 {
     border-top: #10a5f5 solid 2px;
     padding-top: 10px;
 }
-.rating{
+
+.rating {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.rating h3{
+.rating h3 {
     margin: 0 5px;
 }
+
 .product h3 {
-	font-size: 24px;
-	margin-bottom: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
     font-weight: 400;
 }
 
 .product p {
-	font-size: 18px;
-	margin-bottom: 20px;
-	text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-.product a{
+.product a {
     margin: 5px 0 0 15px;
 }
 
@@ -141,37 +142,26 @@ h2 {
     max-width: 800px;
 }
 
-.main-product ul{
+.main-product ul {
     display: flex;
 }
-.main-product li{
+
+.main-product li {
     display: flex;
     margin: 0 5px;
 }
 
-.main-product span{
+.main-product span {
     color: #FF9900;
 }
-.main-product:hover{
+
+.main-product:hover {
     border: solid 2px #FF9900;
 
 }
-/* Apply styles to FAQ section */
-dt {
-	font-size: 24px;
-	margin-bottom: 10px;
-}
-
-dd {
-	font-size: 18px;
-	margin-bottom: 20px;
-	line-height: 1.5;
-}
 
 
-* {box-sizing:border-box}
 
-/* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
     position: relative;
@@ -179,88 +169,93 @@ dd {
     margin-top: 100px;
 }
 
-.slideshow-text{
+.slideshow-text {
     text-align: center;
     font-family: "Bebas Neue";
     color: #10a5f5;
 }
 
-/* Hide the images by default */
 .mySlides {
-  display: none;
-  text-align: center;
-  font-size: small;
+    display: none;
+    text-align: center;
+    font-size: small;
 }
 
-.mySlides img{
+.mySlides img {
     width: 10%;
 }
-/* Next & previous buttons */
-.prev, .next {
+
+.prev,
+.next {
     cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: #FF9900;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #FF9900;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
     right: 0;
-  border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 
 
-/* Number text (1/3 etc) */
 .numbertext {
-  color: #10a5f5;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+    color: #10a5f5;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }
 
-/* The dots/bullets/indicators */
 .dot {
     cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #FF9900;
+.active,
+.dot:hover {
+    background-color: #FF9900;
 }
 
-/* Fading animation */
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
 }
 
 @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
-.text-section{
+
+
+
+.text-section {
     margin-top: 100px;
     margin-left: 300px;
     max-width: 70%;
@@ -268,8 +263,10 @@ dd {
     justify-content: center;
     text-align: left;
     position: relative;
-    
+
 }
+
+
 
 .text-section h2 {
     color: #10a5f5;
@@ -277,46 +274,48 @@ dd {
     margin-top: 40px;
 }
 
-.text-section-list{
+.text-section-list {
     max-width: 70%;
 }
 
-.text-section ul{
+.text-section ul {
     margin-left: 50px;
 }
 
 
 
-#buyers-guide{
+#buyers-guide {
     margin-top: 80px;
-    
+
 }
 
 
 .text-section h3 {
-   margin-top: 40px;
+    margin-top: 40px;
 }
-.text-section p{
+
+.text-section p {
     margin-top: 10px;
 }
-.text-section-images{
-    margin-top: 10px;
-    display:flex; 
-    justify-content: center; 
+
+.text-section-images {
+    display: flex;
+    justify-content: center;
     margin-top: 30px;
 }
-#logo-list{
+
+#logo-list {
     margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
 }
 
-#logo-list img{
+#logo-list img {
     height: auto;
-    width:80%
+    width: 80%
 }
 
-p{
+p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -324,51 +323,96 @@ p{
     font-size: smaller;
 }
 
-footer{
-    /* z-index: 1; */
+footer {
     background-color: #395563;
-    /* position: relative;
-    left: 120px; */
-    height: 150px;
+
+    height: 200px;
     width: 100%;
     color: #f2eee2;
     font-family: "Open Sans";
+    display: flex;
+    justify-content: center;
 }
 
-#services{
-    position: relative;
-    left: 200px;
-    top: 12.5px;
-}
-
-#copyright {
+#footer-container {
+    display: row;
+    justify-content: center;
     text-align: center;
-    font-size: 0.75rem;
-}
-#services-list{
-    list-style-type: none;
-    position: relative;
-    left: 165px;
-    top: 8px;
-    /* row-gap: 5px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 40%;
+    margin: 10px 0 0 0;
 }
 
-footer li{
+#footer-container button {
+    border-radius: 5px;
+    background-color: #FF9900;
+    text-decoration: none;
+    padding: 5px 10px;
+    height: 5%;
+}
+
+#footer-container ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+#footer-container li {
+    margin: 0 5px;
+}
+
+#contact {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
     margin: 10px 0;
+    margin-left: 80px;
 }
 
-.contact{
-    position: relative;
-    text-align: center;
-    bottom: 135px;
-    left: 450px;
-    text-justify: auto;
+#contact a {
+    text-decoration: none;
+    color: #f2eee2;
 }
 
-footer img{
-    position: relative;
-    bottom: 250px;
-    width: 100px;
-    left: 700px;
-    height: auto;
+#newsletter {
+    margin: 5px 0;
 }
+
+#table-section{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#table-section h2{
+    font-family: "Bebas Neue";
+    color: #10a5f5;
+}
+#table-parent{
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    color: #10a5f5;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
